@@ -15,7 +15,7 @@ subtitle: "HEIG-VD · {{< var semester >}} · classe BDR-C"
 | 4 · 05.10 | Cours | Labo / projet | Cours | Projet phase I (Me 07.10, 23h59) · Labo 1 (Di 11.10, 23h59) |
 | 5 · 12.10 | Cours | Labo | Projet | |
 | — · 19.10 | *Travail personnel* |  |  | |
-| 6 · 26.10 |  |  |  | |
+| 6 · 26.10 |  |  |  | Projet phase II (Ma 27.10, 23h59) |
 | 7 · 02.11 |  |  |  | |
 | 8 · 09.11 |  |  |  | |
 | 9 · 16.11 |  |  |  | |

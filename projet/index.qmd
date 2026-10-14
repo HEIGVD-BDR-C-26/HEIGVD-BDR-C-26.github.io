@@ -16,7 +16,7 @@ chaque phase y sont ajoutées au lancement de la phase.
 | Phase | Contenu | À rendre | Rendu |
 |---|---|---|---|
 | I | Cahier des charges | Description de la problématique et analyse des besoins en données et des besoins fonctionnels | **Me 07.10, 23h59** |
-| II | Modélisation conceptuelle | Schéma conceptuel au format UML | **Me 21.10, 23h59** |
+| II | Modélisation conceptuelle | Schéma conceptuel au format UML | **Ma 27.10, 23h59** |
 | III | Modélisation relationnelle | Schéma relationnel sous forme de diagramme ; script de création des tables et des contraintes d'intégrité référentielle | **Me 11.11, 23h59** |
 | IV | Interface, requêtes, vues et triggers | Esquisses des pages principales (PDF) ; script d'insertion des données ; script des vues et des triggers ; requêtes liées aux fonctionnalités prévues | **Me 16.12, 23h59** |
 | V | Application | Application web qui permet de consulter et de modifier la base, connectée à la base par une API | avec le rendu final |
