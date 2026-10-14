@@ -51,6 +51,30 @@ Exemples d'anciens projets :
 - [Gestion d'un campus]({{< var files-url >}}/projet/cdc-exemple-2.pdf) (2 pages)
 - [Cabinet de médecine douce]({{< var files-url >}}/projet/cdc-exemple-3.pdf) (2 pages)
 
+## Phase II : schéma conceptuel
+
+Rendu : **Ma 27.10, 23h59**
+
+Le schéma conceptuel traduit les besoins en données de votre cahier des
+charges en un diagramme UML, avec la notation vue au cours (chapitre 2).
+Outil de dessin : UMLet ou StarUML, comme au labo 1.
+
+Dans votre dépôt, créez le fichier `docs/phase2-schema-conceptuel.md` à partir
+du modèle ci-dessous, placez le diagramme (image et fichier source) dans
+`docs/images/`, et ajoutez un lien vers ce fichier dans le `README.md`.
+
+``` markdown
+# Phase II : schéma conceptuel
+
+![Schéma conceptuel](images/schema-conceptuel.png)
+
+Fichier source : [schema-conceptuel.uxf](images/schema-conceptuel.uxf)
+
+## Contraintes d'intégrité
+
+<!-- Les contraintes que le schéma ne peut pas montrer. -->
+```
+
 ## Choisir un sujet
 
 Voici quelques exemples de projet pour vous inspirer. Le plus important est de
