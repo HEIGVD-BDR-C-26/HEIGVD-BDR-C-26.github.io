@@ -8,7 +8,7 @@ title: "Matériel de cours"
 | 1 | Concepts de base et architecture des SGBD | [PDF]({{< var files-url >}}/materiel/01-Concept_de_base_et_SGDB-v2.pdf) | |
 | 2 | Modélisation entité-association | [PDF]({{< var files-url >}}/materiel/02-Modele_EA-v2.pdf) | |
 | 3 | Modèle relationnel | [PDF]({{< var files-url >}}/materiel/03-Modele_relationnel.pdf) | [Annexe : contraintes reportables]({{< var files-url >}}/materiel/03-Modele_relationnel_contraintes_deferables.pdf) |
-| 4 | Passage EA → relationnel | [PDF]({{< var files-url >}}/materiel/04-Passage_EA_vers_relationnel.pdf) | |
+| 4 | Passage EA → relationnel | [PDF]({{< var files-url >}}/materiel/04-Passage_EA_vers_relationnel.pdf) | [Slides avec corrections]({{< var files-url >}}/materiel/04-Passage_EA_vers_relationnel-corrections.pdf) · [Changements du 27.10](changements.qmd#ch4) |
 | 5 | Algèbre relationnelle | [PDF]({{< var files-url >}}/materiel/05-Algebre_relationnelle.pdf) | |
 | 6 | Langage SQL (parties 1 à 3) | [PDF]({{< var files-url >}}/materiel/06-Langage_SQL.pdf) | [Annexe : transactions]({{< var files-url >}}/materiel/06-Langage_SQL_AnnexeTranasactions.pdf) · [Base Company (dump)](company.postgres.sql) |
 | 6 | SQL avancé (partie 4) | [PDF]({{< var files-url >}}/materiel/06-Langage_SQL-partie4NEW.pdf) | |

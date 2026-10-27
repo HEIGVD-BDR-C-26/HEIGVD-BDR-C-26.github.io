@@ -1,0 +1,25 @@
+---
+title: "Changements dans les slides"
+---
+
+Quand un PDF de slides est corrigé après sa publication, cette page indique
+quelles slides ont changé. Vous pouvez ainsi mettre à jour vos notes.
+
+## Chapitre 4 : Passage EA → relationnel {#ch4}
+
+**Ma 27.10** : dans les formules, les clés primaires n'étaient pas soulignées.
+Elles le sont maintenant, par exemple $R_1(\underline{k}, a, b)$ sur la slide 4.
+
+Slides concernées :
+
+| Slide | Titre |
+|---:|---|
+| 4 | Étape 1 : conversion des types d'entité normaux |
+| 6 | Étape 2 : conversion des types d'entité faibles |
+| 10 à 13 | Étape 3 : conversion des types d'association binaires 1:1 (2/5 à 5/5) |
+| 15 | Étape 4 : conversion des types d'association binaires 1:N ou N:1 |
+| 18 | Étape 5 : conversion des types d'association binaires M:N |
+| 20 | Étape 6 : conversion d'attributs multivalués |
+| 24 | Stratégie 8A |
+| 26 | Stratégie 8B |
+| 29 | Stratégie 8C |
