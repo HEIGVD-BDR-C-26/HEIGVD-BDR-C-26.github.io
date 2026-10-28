@@ -6,4 +6,4 @@ title: "Exercices"
 |---:|---|---|---|
 | 2 | Modèle EA, schémas *Company* (ex. I à III) et *Personnel* (ex. IV) | dans les slides | [Company]({{< var files-url >}}/exercices/02-company-corrige.pdf) · [Personnel]({{< var files-url >}}/exercices/02-personnel-corrige.pdf) |
 | 4 | Passage EA vers relationnel (ex. I à III) | [Série B]({{< var files-url >}}/exercices/04-passage-serie-B.pdf) | [Corrigé]({{< var files-url >}}/exercices/04-passage-corrige.pdf) |
-| 5 | Algèbre relationnelle | dans les slides | |
+| 5 | Algèbre relationnelle (ex. 1 à 11) | [Série C]({{< var files-url >}}/exercices/05-algebre-serie-C.pdf) | |

@@ -33,6 +33,10 @@ website:
         text: "Exercices"
       - href: projet/index.qmd
         text: "Projet"
+      - section: "Ressources"
+        contents:
+          - href: ressources/anciennes-evaluations.qmd
+            text: "Anciennes évaluations"
 
 format:
   html:

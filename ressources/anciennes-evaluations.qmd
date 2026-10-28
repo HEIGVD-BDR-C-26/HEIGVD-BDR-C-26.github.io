@@ -1,0 +1,15 @@
+---
+title: "Anciennes évaluations"
+---
+
+Les travaux écrits des années précédentes, pour vous entraîner. Chaque test
+existe sans et avec les solutions : essayez d'abord de le faire sans regarder
+le corrigé.
+
+## Travail écrit 1
+
+| Année | Test | Énoncé | Corrigé |
+|---|---|---|---|
+| 2025 | Variante 1 | [PDF]({{< var files-url >}}/evaluations/TE1-2025-v1-enonce.pdf) | [PDF]({{< var files-url >}}/evaluations/TE1-2025-v1-corrige.pdf) |
+| 2025 | Variante 2 | [PDF]({{< var files-url >}}/evaluations/TE1-2025-v2-enonce.pdf) | [PDF]({{< var files-url >}}/evaluations/TE1-2025-v2-corrige.pdf) |
+| 2024 | | [PDF]({{< var files-url >}}/evaluations/TE1-2024-enonce.pdf) | [PDF]({{< var files-url >}}/evaluations/TE1-2024-corrige.pdf) |
