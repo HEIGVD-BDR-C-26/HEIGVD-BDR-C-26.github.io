@@ -1,6 +1,8 @@
 ---
-title: "Anciennes évaluations"
+title: "Ressources"
 ---
+
+# Anciennes évaluations
 
 Les travaux écrits des années précédentes, pour vous entraîner. Chaque test
 existe sans et avec les solutions : essayez d'abord de le faire sans regarder
