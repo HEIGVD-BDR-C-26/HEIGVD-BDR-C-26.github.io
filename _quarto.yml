@@ -35,6 +35,8 @@ website:
         text: "Projet"
       - href: ressources/index.qmd
         text: "Ressources"
+      - href: modifications/index.qmd
+        text: "Modifications"
 
 format:
   html:

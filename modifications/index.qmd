@@ -1,0 +1,14 @@
+---
+title: "Modifications"
+---
+
+Ce que change chaque version des slides. La version est indiquée dans le lien du
+PDF sur la page [Matériel de cours](../materiel/index.qmd), par exemple « PDF (v1.1) ».
+
+## Chapitre 4 - Passage EA → relationnel
+
+### v1.1 (27.10)
+
+| Slide | Type | Changement |
+|---:|:---|:---|
+| 4, 6, 10 à 13, 15, 18, 20, 24, 26, 29 | Correction | Clés primaires soulignées dans les formules. |
