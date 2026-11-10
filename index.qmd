@@ -18,15 +18,15 @@ subtitle: "HEIG-VD · {{< var semester >}} · classe BDR-C"
 | 6 · 26.10 | Cours | Projet + retour Labo 1 | Cours | Projet phase II (Ma 27.10, 23h59) |
 | 7 · 02.11 |  |  |  | |
 | 8 · 09.11 |  |  |  | |
-| 9 · 16.11 |  |  |  | |
+| 9 · 16.11 |  |  |  | Projet phase III (Me 18.11, 23h59) |
 | 10 · 23.11 |  |  |  | |
 | 11 · 30.11 |  |  |  | |
 | 12 · 07.12 |  |  |  | |
 | 13 · 14.12 |  |  |  | |
 | — · 21.12 | *Vacances de Noël (21.12 – 08.01)* |  |  | |
-| 14 · 11.01 |  |  |  | |
-| 15 · 18.01 |  |  |  | |
-| 16 · 25.01 |  |  |  | |
+| 14 · 11.01 |  |  |  | Projet : rendu final (Di 17.01, 23h59) |
+| 15 · 18.01 | Présentations | Présentations | Présentations | Slides des présentations (Lu 18.01, 8h30) |
+| - · 25.01 | *Préparation et examens* |  |  | |
 
 : {tbl-colwidths="[12,22,22,22,22]"}
 
