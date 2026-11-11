@@ -10,7 +10,7 @@ title: "Matériel de cours"
 | 3 | Modèle relationnel | [PDF]({{< var files-url >}}/materiel/03-Modele_relationnel.pdf) | [Annexe : contraintes reportables]({{< var files-url >}}/materiel/03-Modele_relationnel_contraintes_deferables.pdf) |
 | 4 | Passage EA → relationnel | [PDF (v1.1)]({{< var files-url >}}/materiel/04-Passage_EA_vers_relationnel.pdf) | [Slides avec corrections]({{< var files-url >}}/materiel/04-Passage_EA_vers_relationnel-corrections.pdf) |
 | 5 | Algèbre relationnelle | [PDF]({{< var files-url >}}/materiel/05-Algebre_relationnelle.pdf) | |
-| 6 | Langage SQL (parties 1 à 3) | [PDF]({{< var files-url >}}/materiel/06-Langage_SQL.pdf) | [Annexe : transactions]({{< var files-url >}}/materiel/06-Langage_SQL_AnnexeTranasactions.pdf) · [Base Company (dump)](company.postgres.sql) |
+| 6 | Langage SQL (partie 1) | [PDF]({{< var files-url >}}/materiel/06-Langage_SQL-1.pdf) | [Annexe : transactions]({{< var files-url >}}/materiel/06-Langage_SQL_AnnexeTranasactions.pdf) · [Base Company (dump)](company.postgres.sql) |
 | 6 | SQL avancé (partie 4) | [PDF]({{< var files-url >}}/materiel/06-Langage_SQL-partie4NEW.pdf) | |
 | 7 | Dépendances fonctionnelles et normalisation | [PDF]({{< var files-url >}}/materiel/07-Dependances_fonctionnelles_et_normalisation.pdf) | [Résumé]({{< var files-url >}}/materiel/07-Dependances_fonctionnelles_et_normalisation_resume.pdf) |
 | 8 | JDBC | [PDF]({{< var files-url >}}/materiel/08-JDBC-updated.pdf) | |
