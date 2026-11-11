@@ -1,73 +1,57 @@
 DROP SCHEMA IF EXISTS company CASCADE;
 CREATE SCHEMA company;
-
 SET SEARCH_PATH TO company;
 
-CREATE TABLE employee
-(
-   fname     VARCHAR(15) NOT NULL,
-   minit     CHAR(1),
-   lname     VARCHAR(15) NOT NULL,
-   ssn       CHAR(9)     NOT NULL,
-   bdate     DATE,
-   address   VARCHAR(30),
-   sex       CHAR(1),
-   salary    DECIMAL(10, 2),
-   super_ssn CHAR(9),
-   dno       INTEGER     NOT NULL,
+CREATE TABLE employee (
+   first_name     VARCHAR(15) NOT NULL,
+   middle_initial CHAR(1),
+   last_name      VARCHAR(15) NOT NULL,
+   ssn            CHAR(9)     NOT NULL,
+   birth_date     DATE,
+   address        VARCHAR(30),
+   sex            CHAR(1),
+   salary         DECIMAL(10, 2),
+   supervisor_ssn CHAR(9),
+   department_number INTEGER  NOT NULL,
    PRIMARY KEY (ssn)
 );
-
-CREATE TABLE department
-(
-   dname          VARCHAR(15) NOT NULL,
-   dnumber        INTEGER     NOT NULL,
-   mgr_ssn        CHAR(9)     NOT NULL,
-   mgr_start_date DATE        NOT NULL,
-   PRIMARY KEY (dnumber)
+CREATE TABLE department (
+   name               VARCHAR(15) NOT NULL,
+   number             INTEGER     NOT NULL,
+   manager_ssn        CHAR(9)     NOT NULL,
+   manager_start_date DATE        NOT NULL,
+   PRIMARY KEY (number)
 );
-
-CREATE TABLE dept_locations
-(
-   dnumber   INTEGER NOT NULL,
-   dlocation INTEGER NOT NULL,
-   PRIMARY KEY (dnumber, dlocation)
+CREATE TABLE department_location (
+   department_number INTEGER NOT NULL,
+   location_number   INTEGER NOT NULL,
+   PRIMARY KEY (department_number, location_number)
 );
-
-CREATE TABLE project
-(
-   pname     VARCHAR(15) NOT NULL,
-   pnumber   INTEGER     NOT NULL,
-   plocation INTEGER,
-   dnum      INTEGER     NOT NULL,
-   PRIMARY KEY (pnumber)
+CREATE TABLE project (
+   name              VARCHAR(15) NOT NULL,
+   number            INTEGER     NOT NULL,
+   location_number   INTEGER,
+   department_number INTEGER     NOT NULL,
+   PRIMARY KEY (number)
 );
-
-CREATE TABLE works_on
-(
-   essn  CHAR(9)       NOT NULL,
-   pno   INTEGER       NOT NULL,
-   hours DECIMAL(3, 1) NOT NULL,
-   PRIMARY KEY (essn, pno)
+CREATE TABLE works_on (
+   employee_ssn   CHAR(9)       NOT NULL,
+   project_number INTEGER       NOT NULL,
+   hours          DECIMAL(3, 1) NOT NULL,
+   PRIMARY KEY (employee_ssn, project_number)
 );
-
-CREATE TABLE dependent
-(
-   essn           CHAR(9)     NOT NULL,
-   dependent_name VARCHAR(15) NOT NULL,
-   sex            CHAR(1),
-   bdate          DATE,
-   PRIMARY KEY (essn, dependent_name)
+CREATE TABLE dependent (
+   employee_ssn CHAR(9)     NOT NULL,
+   name         VARCHAR(15) NOT NULL,
+   sex          CHAR(1),
+   birth_date   DATE,
+   PRIMARY KEY (employee_ssn, name)
 );
-
-CREATE TABLE location
-(
-   lnumber INTEGER     NOT NULL,
-   lname   VARCHAR(15) NOT NULL,
-   PRIMARY KEY (lnumber)
+CREATE TABLE location (
+   number INTEGER     NOT NULL,
+   name   VARCHAR(15) NOT NULL,
+   PRIMARY KEY (number)
 );
-
-
 -- department inserts
 INSERT INTO department
 VALUES ('Headquarters', 1, '888665555', '1981-06-19');
@@ -93,15 +77,15 @@ INSERT INTO dependent
 VALUES ('987654321', 'Abner', 'M', '1942-02-28');
 
 -- dept_locations inserts
-INSERT INTO dept_locations
+INSERT INTO department_location
 VALUES (1, 1);
-INSERT INTO dept_locations
+INSERT INTO department_location
 VALUES (4, 2);
-INSERT INTO dept_locations
+INSERT INTO department_location
 VALUES (5, 3);
-INSERT INTO dept_locations
+INSERT INTO department_location
 VALUES (5, 1);
-INSERT INTO dept_locations
+INSERT INTO department_location
 VALUES (5, 4);
 
 -- employee inserts
@@ -182,34 +166,13 @@ INSERT INTO location
 VALUES (4, 'Sugarland');
 
 
--- department foreign keys
-ALTER TABLE department
-   ADD FOREIGN KEY (mgr_ssn) REFERENCES employee (ssn) ON UPDATE RESTRICT ON DELETE RESTRICT;
-
--- dependent foreign keys
-ALTER TABLE dependent
-   ADD FOREIGN KEY (essn) REFERENCES employee (ssn) ON UPDATE CASCADE ON DELETE CASCADE;
-
--- dept_locations foreign keys
-ALTER TABLE dept_locations
-   ADD FOREIGN KEY (dnumber) REFERENCES department (dnumber) ON UPDATE CASCADE ON DELETE CASCADE;
-ALTER TABLE dept_locations
-   ADD FOREIGN KEY (dlocation) REFERENCES location (lnumber) ON UPDATE CASCADE ON DELETE CASCADE;
-
--- employee foreign keys
-ALTER TABLE employee
-   ADD FOREIGN KEY (dno) REFERENCES department (dnumber) ON UPDATE CASCADE ON DELETE CASCADE;
-ALTER TABLE employee
-   ADD FOREIGN KEY (super_ssn) REFERENCES employee (ssn) ON UPDATE CASCADE ON DELETE CASCADE;
-
--- project foreign keys
-ALTER TABLE project
-   ADD FOREIGN KEY (dnum) REFERENCES department (dnumber) ON UPDATE CASCADE ON DELETE CASCADE;
-ALTER TABLE project
-   ADD FOREIGN KEY (plocation) REFERENCES location (lnumber) ON UPDATE CASCADE ON DELETE CASCADE;
-
--- works_on foreign keys
-ALTER TABLE works_on
-   ADD FOREIGN KEY (essn) REFERENCES employee (ssn) ON UPDATE CASCADE ON DELETE CASCADE;
-ALTER TABLE works_on
-   ADD FOREIGN KEY (pno) REFERENCES project (pnumber) ON UPDATE CASCADE ON DELETE CASCADE;
+ALTER TABLE department ADD FOREIGN KEY (manager_ssn) REFERENCES employee (ssn);
+ALTER TABLE dependent ADD FOREIGN KEY (employee_ssn) REFERENCES employee (ssn);
+ALTER TABLE department_location ADD FOREIGN KEY (department_number) REFERENCES department (number);
+ALTER TABLE department_location ADD FOREIGN KEY (location_number) REFERENCES location (number);
+ALTER TABLE employee ADD FOREIGN KEY (department_number) REFERENCES department (number);
+ALTER TABLE employee ADD FOREIGN KEY (supervisor_ssn) REFERENCES employee (ssn);
+ALTER TABLE project ADD FOREIGN KEY (department_number) REFERENCES department (number);
+ALTER TABLE project ADD FOREIGN KEY (location_number) REFERENCES location (number);
+ALTER TABLE works_on ADD FOREIGN KEY (employee_ssn) REFERENCES employee (ssn);
+ALTER TABLE works_on ADD FOREIGN KEY (project_number) REFERENCES project (number);
