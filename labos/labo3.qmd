@@ -3,6 +3,7 @@ title: "Labo 3 — Requêtes SQL"
 ---
 
 - Roster : *lien publié au lancement*
+- Rendu : **Di 29.11, 23h59**
 
 ## But
 

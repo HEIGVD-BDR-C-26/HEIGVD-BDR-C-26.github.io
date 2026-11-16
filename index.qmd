@@ -16,10 +16,10 @@ subtitle: "HEIG-VD · {{< var semester >}} · classe BDR-C"
 | 5 · 12.10 | Cours | Labo | Projet | |
 | — · 19.10 | *Travail personnel* |  |  | |
 | 6 · 26.10 | Cours | Projet + retour Labo 1 | Cours | Projet phase II (Ma 27.10, 23h59) |
-| 7 · 02.11 |  |  |  | |
-| 8 · 09.11 |  |  |  | |
-| 9 · 16.11 |  |  |  | Projet phase III (Me 18.11, 23h59) |
-| 10 · 23.11 |  |  |  | |
+| 7 · 02.11 | Cours | Projet | Exercices | |
+| 8 · 09.11 | Travail écrit 1 | - | Cours | |
+| 9 · 16.11 | Cours | Labo 3 | Cours | Projet phase III (Me 18.11, 23h59) |
+| 10 · 23.11 |  |  |  | Labo 3 (Di 29.11, 23h59) |
 | 11 · 30.11 |  |  |  | |
 | 12 · 07.12 |  |  |  | |
 | 13 · 14.12 |  |  |  | |
