@@ -12,3 +12,17 @@ PDF sur la page [Matériel de cours](../materiel/index.qmd), par exemple « PDF 
 | Slide | Type | Changement |
 |---:|:---|:---|
 | 4, 6, 10 à 13, 15, 18, 20, 24, 26, 29 | Correction | Clés primaires soulignées dans les formules. |
+
+## Chapitre 6 - Langage SQL (partie 2)
+
+### v1.1 (18.11)
+
+| Slide | Type | Changement |
+|---:|:---|:---|
+| 82 à 93 | Clarification | Vues : formulations, réponse du quiz et conditions de mise à jour à travers une vue. |
+| 94 à 102 | Ajout | Section « Fonctions et procédures stockées » ; nouvelle slide « PL/pgSQL en bref » (99) ; résultats des appels de fonction. |
+| 103 à 115 | Clarification | Les transactions sont présentées avant les procédures, avec un nouvel exemple : comptes bancaires (table `accounts`). |
+| 116 à 124 | Ajout | Section « Procédures » : différence avec une fonction, exemple de paramètres `OUT` et `INOUT`, procédure `transfer` sur la table `accounts`, résultat de l'appel. |
+| 127 | Ajout | Exemple de contrainte : 40 heures par semaine au maximum. |
+| 128 à 133 | Clarification | Syntaxe `EXECUTE FUNCTION` ; exemple complet du journal (fonction, déclencheur et test) sur une slide ; `OLD` et `NEW` sur l'exemple de Kurt Goedel. |
+| 134 à 136 | Ajout | Déclencheur qui vérifie la contrainte des 40 heures ; rôle de la valeur de retour d'une fonction trigger. |
