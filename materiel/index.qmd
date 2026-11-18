@@ -12,7 +12,7 @@ title: "Matériel de cours"
 | 5 | Algèbre relationnelle | [PDF]({{< var files-url >}}/materiel/05-Algebre_relationnelle.pdf) | |
 | 6 | Langage SQL (partie 1) | [PDF]({{< var files-url >}}/materiel/06-Langage_SQL-1.pdf) | [Annexe : transactions]({{< var files-url >}}/materiel/06-Langage_SQL_AnnexeTranasactions.pdf) · [Base Company (dump)](company.postgres.sql) · [Exercices et solutions]({{< var files-url >}}/materiel/06-Langage_SQL-1-exercices.pdf) |
 | 6 | Langage SQL (partie 2) | [PDF (v1.1)]({{< var files-url >}}/materiel/06-Langage_SQL-2.pdf) | |
-| 6 | SQL avancé (partie 4) | [PDF]({{< var files-url >}}/materiel/06-Langage_SQL-partie4NEW.pdf) | |
+| 6 | SQL avancé (partie 4) | [PDF (v1.0)]({{< var files-url >}}/materiel/06-Langage_SQL-partie4NEW.pdf) | |
 | 7 | Dépendances fonctionnelles et normalisation | [PDF]({{< var files-url >}}/materiel/07-Dependances_fonctionnelles_et_normalisation.pdf) | [Résumé]({{< var files-url >}}/materiel/07-Dependances_fonctionnelles_et_normalisation_resume.pdf) |
 | 8 | JDBC | [PDF]({{< var files-url >}}/materiel/08-JDBC-updated.pdf) | |
 | 9 | Indexation | [PDF]({{< var files-url >}}/materiel/09-IndexationNew.pdf) | |
